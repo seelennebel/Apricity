@@ -1,0 +1,105 @@
+html {
+    font-size: 62.5%;
+    max-height: 160%;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/static/inter-regular-webfont.woff2') format('woff2'),
+         url('/static/inter-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    font-family: "Inter";
+}
+
+
+.wrapper1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 7rem 13rem 7rem 50rem 15rem 15rem 15rem;
+    margin-top: 4rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.element {
+    justify-self: start;
+    color: white;
+    align-self: center;
+}
+
+#logo {
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+#logo_link {
+    text-decoration: none;
+    color: white;
+}
+
+#guide_below {
+    font-size: 1.5rem;
+    color: white;
+    justify-self: end;
+    align-self: center;
+}
+
+#text1 {
+    font-size: 2rem;
+}
+
+#text2 {
+    font-size: 2rem;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+#text3 {
+    font-size: 4rem;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    align-self: end;
+    color: white;
+}
+
+#text4 {
+    font-size: 2rem;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    align-self: end;
+}
+
+#text5 {
+    font-size: 2rem;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    align-self: end;
+}
+
+#text6 {
+    grid-row-start: 7;
+    grid-row-end: 8;
+    align-self: end;
+    font-size: 4rem;
+    color: white;
+}
+
+
+#image {
+    width: 75rem;
+    height: 100rem;
+    position: relative;
+    float: right;
+    top: -110rem;
+    z-index: -999;
+}
+
+#begin_button {
+    text-decoration: none;
+    color: white;
+}

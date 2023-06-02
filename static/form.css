@@ -1,0 +1,108 @@
+html {
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/static/inter-regular-webfont.woff2') format('woff2'),
+         url('/static/inter-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: black;
+    font-family: "Inter", sans-serif;
+}
+
+#main {
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+}
+
+#instruction {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+label {
+    color: white;
+}
+
+#F {
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: white;
+}
+
+#form {
+    padding: 1rem;
+}
+
+.label {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.IN {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#artist {
+    width: 100%;
+    border-radius: 0.3rem;
+    border: none;
+    height: 3rem;
+}
+
+#lyrics {
+    width: 100%;
+    border-radius: 0.3rem;
+    border: none;
+    color: black;
+    font-family: "Inter", sans-serif;
+}
+
+textarea {
+    color: black;
+    outline: none;
+    max-width: 100%;
+}
+
+input[type="reset"] {
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    border-style: solid;
+    border-width: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: white;
+
+}
+
+input[type="submit"] {
+    font-family: "Inter", sans-serif;
+    background-color: black;
+    border-style: solid;
+    border-width: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+
+input[type="reset"]:hover {
+    background-color: white;
+    color: black;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: black;
+}
+

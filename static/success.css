@@ -1,0 +1,80 @@
+html{
+  font-size: 62.5%;  
+  max-height: 160%;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/static/inter-regular-webfont.woff2') format('woff2'),
+         url('/static/inter-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+}
+
+#S {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+ul.cloud {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 3rem;
+    width: 80%
+}
+
+ul.cloud a {
+    --size: 4;
+    --color: #a33;
+    color: var(--color);
+    font-size: calc(var(--size) * 0.5rem + 1rem);
+    display: block;
+    padding: 4rem 2rem;
+    position: relative;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    color: white;
+}
+
+a {
+    height: 100%;
+}
+
+#word_cloud {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12rem;
+}
+
+ul.cloud a[data-weight="1"] { --size: 3; }
+ul.cloud a[data-weight="2"] { --size: 3; }
+ul.cloud a[data-weight="3"] { --size: 3; }
+ul.cloud a[data-weight="4"] { --size: 3; }
+ul.cloud a[data-weight="5"] { --size: 3; }
+ul.cloud a[data-weight="6"] { --size: 3; }
+ul.cloud a[data-weight="7"] { --size: 3; }
+ul.cloud a[data-weight="8"] { --size: 5; }
+ul.cloud a[data-weight="9"] { --size: 5; }
+ul.cloud a[data-weight="10"] { --size: 5; }
+ul.cloud a[data-weight="11"] { --size: 5; }
+ul.cloud a[data-weight="12"] { --size: 10; }
+ul.cloud a[data-weight="13"] { --size: 10; }
+ul.cloud a[data-weight="14"] { --size: 15; }
+ul.cloud a[data-weight="15"] { --size: 15; }
+ul.cloud a[data-weight="16"] { --size: 20; }
+ul.cloud a[data-weight="17"] { --size: 20; }
+ul.cloud a[data-weight="18"] { --size: 20; }
+ul.cloud a[data-weight="19"] { --size: 25; }
+ul.cloud a[data-weight="20"] { --size: 30; }
+ 
