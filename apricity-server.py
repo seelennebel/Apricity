@@ -28,6 +28,3 @@ def form_page():
         session['result'] = result
         return redirect(url_for('success'))
     return render_template("form.html")
-
-if __name__ == "__main__":
-    app.run(debug=True)
