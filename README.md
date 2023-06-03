@@ -10,6 +10,6 @@ I created the web application using Python Flask. The word_cloud.py module is th
 4. Creating simple markups with HTML
 5. Developing the website responsibly by using CSS features such as Flexbot, Grid, and CSS functions
 6. Adding a custom font to the project so that it would be accessible even if the user doesn't have it installed
+7. Hosting my web application with heroku
 ### What are my plans for this project
-I am planning to make the website more user-friendly in the future. Also, I want to scale up the application so that it will be able to hold and process a large amount of user data. Later, it can be used to display a big word cloud of many people's favorite songs. Also, I would like to change the design of the word cloud and make it interactive.
-
+I am planning to make the website more user-friendly in the future. Also, I want to scale up the application so that it will be able to hold and process a large amount of user data. Later, it can be used to display a big word cloud of many people's favorite songs. Also, I would like to change the design of the word cloud and make it interactive. 
